@@ -1,0 +1,21 @@
+[package]
+name = "aetheris-cortex"
+version = "0.1.0"
+edition = "2021"
+authors = ["Varshini <saivarshini2704@gmail.com>"]
+description = "Aetheris Cortex: Model-Agnostic Request Classifier and Adaptive Router for LLMs"
+license = "Apache-2.0"
+
+[dependencies]
+async-trait = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+regex = "1.10"
+
+[[example]]
+name = "classifier_eval"
+path = "examples/classifier_eval.rs"
