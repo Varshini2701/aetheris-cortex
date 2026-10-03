@@ -1,10 +1,15 @@
 # 🌟 Aetheris Cortex
 > **Model-Agnostic Request Classifier, Adaptive Thompson Sampling Router & Continuation Cache Engine**
 
+[![Live Demo App](https://img.shields.io/badge/🚀%20Live%20App-Interactive%20Studio-9333ea?style=for-the-badge&logo=googlechrome&logoColor=white)](https://varshini2701.github.io/aetheris-cortex/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-success.svg)](https://varshini2701.github.io/aetheris-cortex/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Rust: 2021 Edition](https://img.shields.io/badge/Rust-2021_Edition-orange.svg)](https://www.rust-lang.org/)
 [![Benchmark Accuracy: 90%](https://img.shields.io/badge/Benchmark_Accuracy-90%25-emerald.svg)](#benchmark-evaluation)
 [![Avg Latency: 10μs](https://img.shields.io/badge/Avg_Latency-10%CE%BCs-cyan.svg)](#benchmark-evaluation)
+
+> 🌐 **Live Interactive App / Studio**: **[https://varshini2701.github.io/aetheris-cortex/](https://varshini2701.github.io/aetheris-cortex/)**  
+> Test request classification, live Thompson bandit routing simulations, and benchmark inspections directly in your browser.
 
 ---
 
@@ -121,7 +126,8 @@ cargo run --release --example classifier_eval
 ```
 
 ### 3. Launch the Interactive Studio
-Simply open `index.html` in your favorite web browser or host locally:
+- **Online (Zero Setup):** Open the live app directly in your browser: **[https://varshini2701.github.io/aetheris-cortex/](https://varshini2701.github.io/aetheris-cortex/)**
+- **Local:** Simply open `index.html` in your favorite web browser or host locally:
 ```bash
 python -m http.server 3000
 # Open http://localhost:3000 in your browser
